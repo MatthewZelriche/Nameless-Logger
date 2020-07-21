@@ -13,7 +13,7 @@ enum LogLevel {
     TRACE       = spdlog::level::trace,
     INFO        = spdlog::level::info,
     WARN        = spdlog::level::warn,
-    ERROR       = spdlog::level::err,     
+    ERR         = spdlog::level::err,     
 };
 
 // Our log multiton. This is not thread-safe.
